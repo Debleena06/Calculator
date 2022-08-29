@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #772777;
+    /*background-image: url(5760.jpg);
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;*/
+}
+h3 {
+    color: white;
+    margin-top: 4%;
+    text-align: center;
+    font-size: 30px;
+}
+.container {
+    margin: 2% auto;
+    height: auto;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 2px 2px 5px #560232;
+    background-color: #D185B0;
+}
+.button {
+    padding: 2px 20px;
+    margin: 2px 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #560232;
+    color: white;
+}
+#add {
+    padding: 2px 20px;
+    margin: 2px 10px;
+    /*border: #e3c8d7;
+    border-radius: 5px;
+    background-color: #e3c8d7;
+    color: #560232;*/
+}
+#sub {
+    padding: 2px 24px;
+    margin: 2px 10px;
+    /*border: #e3c8d7;
+    border-radius: 5px;
+    background-color: #e3c8d7;
+    color: #560232;*/
+}
+#prod{
+    padding: 2px 22px;
+    margin: 2px 10px;
+    /*border: #e3c8d7;
+    border-radius: 5px;
+    background-color: #e3c8d7;
+    color: #560232;*/
+}
+#div {
+    padding: 2px 24px;
+    margin: 2px 10px;
+    /*border: #e3c8d7;
+    border-radius: 5px;
+    background-color: #e3c8d7;
+    color: #560232;*/
+}
+#zero {
+    padding: 2px 21px;
+    margin: 2px 10px;
+}
+#equal {
+    padding: 2px 19px;
+    margin: 2px 10px;
+    /*border: #e3c8d7;
+    border-radius: 5px;
+    background-color: #e3c8d7;
+    color: #560232;*/
+}
+#left {
+    padding: 2px 24px;
+    margin: 2px 10px;
+    /*border: #e3c8d7;
+    border-radius: 5px;
+    background-color: #e3c8d7;
+    color: #560232;*/
+}
+#dot {
+    padding: 2px 24px;
+    margin: 2px 10px;
+    /*border: #e3c8d7;
+    border-radius: 5px;
+    background-color: #e3c8d7;
+    color: #560232;*/
+}
+#right {
+    padding: 2px 24px;
+    margin: 2px 10px;
+    /*border: #e3c8d7;
+    border-radius: 5px;
+    background-color: #e3c8d7;
+    color: #560232;*/
+}
+#delete {
+    padding: 10px 105px 10px 100px;
+    margin: 10px;
+    font-size: 30px;
+    border: #e3c8d7;
+    background-color: #e3c8d7;
+    color: #560232;
+
+}
+#userip {
+    width: 275px;
+    height: 40px;
+    padding: 0px;
+    margin: 10px;
+    font-size: 30px;
+    border: 2px solid #560232;
+    background-color: #560232;
+    color: white;
+}

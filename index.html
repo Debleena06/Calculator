@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>VIRTUAL&nbsp;&nbsp;CALCULATOR</h3>
+    <div class="container">
+        <form name="forms">
+            <input type="text" name="answer" id="userip"><br><br>
+
+            <input type="button" value=" 9 " onclick="forms.answer.value += '9'" class="button">
+            <input type="button" value=" 8 " onclick="forms.answer.value += '8'" class="button">
+            <input type="button" value=" 7 " onclick="forms.answer.value += '7'" class="button"><br>
+
+            <input type="button" value=" 6 " onclick="forms.answer.value += '6'" class="button">
+            <input type="button" value=" 5 " onclick="forms.answer.value += '5'" class="button">
+            <input type="button" value=" 4 " onclick="forms.answer.value += '4'" class="button"><br>
+
+            <input type="button" value=" 3 " onclick="forms.answer.value += '3'" class="button">
+            <input type="button" value=" 2 " onclick="forms.answer.value += '2'" class="button">
+            <input type="button" value=" 1 " onclick="forms.answer.value += '1'" class="button"><br>
+
+            <input type="button" value=" + " onclick="forms.answer.value += '+'" class="button" id="add">
+            <input type="button" value=" - " onclick="forms.answer.value += '-'" class="button" id="sub">
+            <input type="button" value=" * " onclick="forms.answer.value += '*'" class="button" id="prod"><br>
+
+            <input type="button" value=" / " onclick="forms.answer.value += '/'" class="button" id="div">
+            <input type="button" value=" 0 " onclick="forms.answer.value += '0'" class="button" id="zero">
+            <input type="button" value=" = " onclick="forms.answer.value = eval(forms.answer.value)" class="button" id="equal"><br>
+
+            <input type="button" value=" ( " onclick="forms.answer.value += '('" class="button" id="left">
+            <input type="button" value=" . " onclick="forms.answer.value += '.'" class="button" id="dot">
+            <input type="button" value=" ) " onclick="forms.answer.value += ')'" class="button" id="right"><br>
+
+            <input type="button" value=" DEL " onclick="forms.answer.value = ''" id="delete">
+
+        </form>
+    </div>
+</body>
+</html>
